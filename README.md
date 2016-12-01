@@ -16,8 +16,8 @@
 
 ```
 /* switch事件回调. */
-- (void)actionBuilding:(UISwitch *)sender
-{
-    self.mapView.showsLabels = sender.on;
+- (IBAction)showLabelSwitch:(id)sender {
+    UISwitch *showSwitch = (UISwitch *)sender;
+    self.mapView.showsLabels = showSwitch.on;
 }
 ```
