@@ -137,7 +137,7 @@
 				TargetAttributes = {
 					81A276CC1DCB36F7002A267E = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = YMJ372W38W;
+						DevelopmentTeam = 9FMAU64797;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -347,7 +347,7 @@
 			baseConfigurationReference = DB9F88151C136ADF7A55475A /* Pods-MapLabelDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YMJ372W38W;
+				DEVELOPMENT_TEAM = 9FMAU64797;
 				INFOPLIST_FILE = MapLabelDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -361,7 +361,7 @@
 			baseConfigurationReference = 6FBF5062BA6041A305A5B5A6 /* Pods-MapLabelDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YMJ372W38W;
+				DEVELOPMENT_TEAM = 9FMAU64797;
 				INFOPLIST_FILE = MapLabelDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
