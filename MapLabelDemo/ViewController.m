@@ -35,7 +35,6 @@
     [self.view addSubview:self.mapView];
     [self.view sendSubviewToBack:self.mapView];
     
-    //test
     
 }
 
