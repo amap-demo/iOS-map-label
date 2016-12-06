@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MapLabelDemo_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X69-Jm-lwF">
+                                <rect key="frame" x="20" y="592" width="150" height="45"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="显示标注：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vh7-FP-1kL">
+                                        <rect key="frame" x="8" y="12.5" width="87" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hM7-fa-CIx">
+                                        <rect key="frame" x="93" y="7" width="51" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="LrU-De-oAy"/>
+                                            <constraint firstAttribute="width" constant="49" id="b76-nN-eQF"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="showLabelSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="fNo-Ob-dYs"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="2XC-CZ-6hk"/>
+                                    <constraint firstAttribute="trailing" secondItem="hM7-fa-CIx" secondAttribute="trailing" constant="8" id="Czb-d0-XTR"/>
+                                    <constraint firstAttribute="width" constant="150" id="GQd-kW-EvC"/>
+                                    <constraint firstItem="Vh7-FP-1kL" firstAttribute="leading" secondItem="X69-Jm-lwF" secondAttribute="leading" constant="8" id="KQv-Jc-bht"/>
+                                    <constraint firstItem="Vh7-FP-1kL" firstAttribute="centerY" secondItem="X69-Jm-lwF" secondAttribute="centerY" id="lGQ-t3-Z34"/>
+                                    <constraint firstItem="hM7-fa-CIx" firstAttribute="centerY" secondItem="X69-Jm-lwF" secondAttribute="centerY" id="yZd-4x-qSt"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="X69-Jm-lwF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="4OZ-R2-T2J"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="X69-Jm-lwF" secondAttribute="bottom" constant="30" id="SFN-Wg-KWX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="containerView" destination="X69-Jm-lwF" id="0Rf-AG-NAg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

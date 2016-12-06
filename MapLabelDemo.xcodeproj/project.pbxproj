@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3925AAA8E154EED410D3C478 /* libPods-MapLabelDemo-swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477B752A6AB5ADF158B4C4EF /* libPods-MapLabelDemo-swift.a */; };
 		81A276D21DCB36F7002A267E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A276D11DCB36F7002A267E /* main.m */; };
 		81A276D51DCB36F7002A267E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A276D41DCB36F7002A267E /* AppDelegate.m */; };
 		81A276D81DCB36F7002A267E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A276D71DCB36F7002A267E /* ViewController.m */; };
@@ -14,9 +15,17 @@
 		81A276DD1DCB36F7002A267E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A276DC1DCB36F7002A267E /* Assets.xcassets */; };
 		81A276E01DCB36F7002A267E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A276DE1DCB36F7002A267E /* LaunchScreen.storyboard */; };
 		C42073271CA1BC28772F241F /* libPods-MapLabelDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB25CB70905198D50F027E2C /* libPods-MapLabelDemo.a */; };
+		D96AE6931DF6B7F200E465F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AE6921DF6B7F200E465F9 /* AppDelegate.swift */; };
+		D96AE6951DF6B7F200E465F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AE6941DF6B7F200E465F9 /* ViewController.swift */; };
+		D96AE6981DF6B7F200E465F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96AE6961DF6B7F200E465F9 /* Main.storyboard */; };
+		D96AE69A1DF6B7F200E465F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96AE6991DF6B7F200E465F9 /* Assets.xcassets */; };
+		D96AE69D1DF6B7F200E465F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96AE69B1DF6B7F200E465F9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		477B752A6AB5ADF158B4C4EF /* libPods-MapLabelDemo-swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapLabelDemo-swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC64CBA3C95FCF220A24AAA /* Pods-MapLabelDemo-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapLabelDemo-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapLabelDemo-swift/Pods-MapLabelDemo-swift.release.xcconfig"; sourceTree = "<group>"; };
+		583E9259443B92CF3CC75CFB /* Pods-MapLabelDemo-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapLabelDemo-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapLabelDemo-swift/Pods-MapLabelDemo-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		6FBF5062BA6041A305A5B5A6 /* Pods-MapLabelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapLabelDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapLabelDemo/Pods-MapLabelDemo.release.xcconfig"; sourceTree = "<group>"; };
 		81A276CD1DCB36F7002A267E /* MapLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A276D11DCB36F7002A267E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -28,6 +37,14 @@
 		81A276DC1DCB36F7002A267E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81A276DF1DCB36F7002A267E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81A276E11DCB36F7002A267E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96AE6901DF6B7F200E465F9 /* MapLabelDemo-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MapLabelDemo-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96AE6921DF6B7F200E465F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D96AE6941DF6B7F200E465F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D96AE6971DF6B7F200E465F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D96AE6991DF6B7F200E465F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D96AE69C1DF6B7F200E465F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D96AE69E1DF6B7F200E465F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96AE6A21DF6BD4A00E465F9 /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		DB9F88151C136ADF7A55475A /* Pods-MapLabelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapLabelDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapLabelDemo/Pods-MapLabelDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FB25CB70905198D50F027E2C /* libPods-MapLabelDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapLabelDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -41,6 +58,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D96AE68D1DF6B7F200E465F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3925AAA8E154EED410D3C478 /* libPods-MapLabelDemo-swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -48,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				FB25CB70905198D50F027E2C /* libPods-MapLabelDemo.a */,
+				477B752A6AB5ADF158B4C4EF /* libPods-MapLabelDemo-swift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -56,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				81A276CF1DCB36F7002A267E /* MapLabelDemo */,
+				D96AE6911DF6B7F200E465F9 /* MapLabelDemo-swift */,
 				81A276CE1DCB36F7002A267E /* Products */,
 				9F577DA9DFB7A22F112D11DC /* Pods */,
 				7F88116E604F6D03E7189707 /* Frameworks */,
@@ -66,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				81A276CD1DCB36F7002A267E /* MapLabelDemo.app */,
+				D96AE6901DF6B7F200E465F9 /* MapLabelDemo-swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,8 +127,24 @@
 			children = (
 				DB9F88151C136ADF7A55475A /* Pods-MapLabelDemo.debug.xcconfig */,
 				6FBF5062BA6041A305A5B5A6 /* Pods-MapLabelDemo.release.xcconfig */,
+				583E9259443B92CF3CC75CFB /* Pods-MapLabelDemo-swift.debug.xcconfig */,
+				4CC64CBA3C95FCF220A24AAA /* Pods-MapLabelDemo-swift.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D96AE6911DF6B7F200E465F9 /* MapLabelDemo-swift */ = {
+			isa = PBXGroup;
+			children = (
+				D96AE6921DF6B7F200E465F9 /* AppDelegate.swift */,
+				D96AE6941DF6B7F200E465F9 /* ViewController.swift */,
+				D96AE6A21DF6BD4A00E465F9 /* Swift-Bridging-Header.h */,
+				D96AE6961DF6B7F200E465F9 /* Main.storyboard */,
+				D96AE6991DF6B7F200E465F9 /* Assets.xcassets */,
+				D96AE69B1DF6B7F200E465F9 /* LaunchScreen.storyboard */,
+				D96AE69E1DF6B7F200E465F9 /* Info.plist */,
+			);
+			path = "MapLabelDemo-swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,16 +170,42 @@
 			productReference = 81A276CD1DCB36F7002A267E /* MapLabelDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D96AE68F1DF6B7F200E465F9 /* MapLabelDemo-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96AE6A11DF6B7F200E465F9 /* Build configuration list for PBXNativeTarget "MapLabelDemo-swift" */;
+			buildPhases = (
+				FEFEFF080CC6EFF7CB29C72F /* [CP] Check Pods Manifest.lock */,
+				D96AE68C1DF6B7F200E465F9 /* Sources */,
+				D96AE68D1DF6B7F200E465F9 /* Frameworks */,
+				D96AE68E1DF6B7F200E465F9 /* Resources */,
+				903E83758CB94306558E67B4 /* [CP] Embed Pods Frameworks */,
+				2F538C43696B231B2FE19477 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MapLabelDemo-swift";
+			productName = "MapLabelDemo-swift";
+			productReference = D96AE6901DF6B7F200E465F9 /* MapLabelDemo-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		81A276C51DCB36F7002A267E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = AutoNavi;
 				TargetAttributes = {
 					81A276CC1DCB36F7002A267E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9FMAU64797;
+						ProvisioningStyle = Automatic;
+					};
+					D96AE68F1DF6B7F200E465F9 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 9FMAU64797;
 						ProvisioningStyle = Automatic;
@@ -156,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				81A276CC1DCB36F7002A267E /* MapLabelDemo */,
+				D96AE68F1DF6B7F200E465F9 /* MapLabelDemo-swift */,
 			);
 		};
 /* End PBXProject section */
@@ -168,6 +239,16 @@
 				81A276E01DCB36F7002A267E /* LaunchScreen.storyboard in Resources */,
 				81A276DD1DCB36F7002A267E /* Assets.xcassets in Resources */,
 				81A276DB1DCB36F7002A267E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96AE68E1DF6B7F200E465F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96AE69D1DF6B7F200E465F9 /* LaunchScreen.storyboard in Resources */,
+				D96AE69A1DF6B7F200E465F9 /* Assets.xcassets in Resources */,
+				D96AE6981DF6B7F200E465F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +285,52 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapLabelDemo/Pods-MapLabelDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2F538C43696B231B2FE19477 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapLabelDemo-swift/Pods-MapLabelDemo-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		701C85340F4052034D7C0FD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		903E83758CB94306558E67B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapLabelDemo-swift/Pods-MapLabelDemo-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEFEFF080CC6EFF7CB29C72F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,6 +358,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D96AE68C1DF6B7F200E465F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96AE6951DF6B7F200E465F9 /* ViewController.swift in Sources */,
+				D96AE6931DF6B7F200E465F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -247,6 +382,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				81A276DF1DCB36F7002A267E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D96AE6961DF6B7F200E465F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D96AE6971DF6B7F200E465F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D96AE69B1DF6B7F200E465F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D96AE69C1DF6B7F200E465F9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -347,12 +498,15 @@
 			baseConfigurationReference = DB9F88151C136ADF7A55475A /* Pods-MapLabelDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9FMAU64797;
 				INFOPLIST_FILE = MapLabelDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.MapLabelDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -361,12 +515,56 @@
 			baseConfigurationReference = 6FBF5062BA6041A305A5B5A6 /* Pods-MapLabelDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9FMAU64797;
 				INFOPLIST_FILE = MapLabelDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.MapLabelDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		D96AE69F1DF6B7F200E465F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583E9259443B92CF3CC75CFB /* Pods-MapLabelDemo-swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9FMAU64797;
+				INFOPLIST_FILE = "MapLabelDemo-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.MapLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "./MapLabelDemo-swift/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D96AE6A01DF6B7F200E465F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC64CBA3C95FCF220A24AAA /* Pods-MapLabelDemo-swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9FMAU64797;
+				INFOPLIST_FILE = "MapLabelDemo-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.MapLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "./MapLabelDemo-swift/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -387,6 +585,15 @@
 			buildConfigurations = (
 				81A276E51DCB36F7002A267E /* Debug */,
 				81A276E61DCB36F7002A267E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96AE6A11DF6B7F200E465F9 /* Build configuration list for PBXNativeTarget "MapLabelDemo-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96AE69F1DF6B7F200E465F9 /* Debug */,
+				D96AE6A01DF6B7F200E465F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
