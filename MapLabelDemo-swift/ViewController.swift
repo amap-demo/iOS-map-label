@@ -45,7 +45,7 @@ class ViewController: UIViewController, MAMapViewDelegate{
         // Dispose of any resources that can be recreated.
     }
     
-    
+    /* switch事件回调. */
     @IBAction func showLabelSwitch(_ sender: UISwitch) {
         self.mapView.isShowsLabels = sender.isOn;
     }

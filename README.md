@@ -14,6 +14,8 @@
 
 ## 核心难点 ##
 
+`Objective-C`
+
 ```
 /* switch事件回调. */
 - (IBAction)showLabelSwitch:(id)sender {
@@ -21,3 +23,12 @@
     self.mapView.showsLabels = showSwitch.on;
 }
 ```
+
+`Swift`
+
+````
+/* switch事件回调. */
+@IBAction func showLabelSwitch(_ sender: UISwitch) {
+    self.mapView.isShowsLabels = sender.isOn;
+}
+````
