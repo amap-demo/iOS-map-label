@@ -20,7 +20,18 @@
 		D96AE6981DF6B7F200E465F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96AE6961DF6B7F200E465F9 /* Main.storyboard */; };
 		D96AE69A1DF6B7F200E465F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96AE6991DF6B7F200E465F9 /* Assets.xcassets */; };
 		D96AE69D1DF6B7F200E465F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96AE69B1DF6B7F200E465F9 /* LaunchScreen.storyboard */; };
+		D9F65BD81E2E00E8002BBD5C /* MapLabelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BD71E2E00E8002BBD5C /* MapLabelDemoUITests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9F65BDA1E2E00E8002BBD5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81A276C51DCB36F7002A267E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81A276CC1DCB36F7002A267E;
+			remoteInfo = MapLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		477B752A6AB5ADF158B4C4EF /* libPods-MapLabelDemo-swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapLabelDemo-swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +56,9 @@
 		D96AE69C1DF6B7F200E465F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D96AE69E1DF6B7F200E465F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D96AE6A21DF6BD4A00E465F9 /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		D9F65BD51E2E00E8002BBD5C /* MapLabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapLabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F65BD71E2E00E8002BBD5C /* MapLabelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapLabelDemoUITests.m; sourceTree = "<group>"; };
+		D9F65BD91E2E00E8002BBD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB9F88151C136ADF7A55475A /* Pods-MapLabelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapLabelDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapLabelDemo/Pods-MapLabelDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FB25CB70905198D50F027E2C /* libPods-MapLabelDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapLabelDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -66,6 +80,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9F65BD21E2E00E8002BBD5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,6 +104,7 @@
 			children = (
 				81A276CF1DCB36F7002A267E /* MapLabelDemo */,
 				D96AE6911DF6B7F200E465F9 /* MapLabelDemo-swift */,
+				D9F65BD61E2E00E8002BBD5C /* MapLabelDemoUITests */,
 				81A276CE1DCB36F7002A267E /* Products */,
 				9F577DA9DFB7A22F112D11DC /* Pods */,
 				7F88116E604F6D03E7189707 /* Frameworks */,
@@ -94,6 +116,7 @@
 			children = (
 				81A276CD1DCB36F7002A267E /* MapLabelDemo.app */,
 				D96AE6901DF6B7F200E465F9 /* MapLabelDemo-swift.app */,
+				D9F65BD51E2E00E8002BBD5C /* MapLabelDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +170,15 @@
 			path = "MapLabelDemo-swift";
 			sourceTree = "<group>";
 		};
+		D9F65BD61E2E00E8002BBD5C /* MapLabelDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9F65BD71E2E00E8002BBD5C /* MapLabelDemoUITests.m */,
+				D9F65BD91E2E00E8002BBD5C /* Info.plist */,
+			);
+			path = MapLabelDemoUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,6 +222,24 @@
 			productReference = D96AE6901DF6B7F200E465F9 /* MapLabelDemo-swift.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D9F65BD41E2E00E8002BBD5C /* MapLabelDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F65BDE1E2E00E8002BBD5C /* Build configuration list for PBXNativeTarget "MapLabelDemoUITests" */;
+			buildPhases = (
+				D9F65BD11E2E00E8002BBD5C /* Sources */,
+				D9F65BD21E2E00E8002BBD5C /* Frameworks */,
+				D9F65BD31E2E00E8002BBD5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9F65BDB1E2E00E8002BBD5C /* PBXTargetDependency */,
+			);
+			name = MapLabelDemoUITests;
+			productName = MapLabelDemoUITests;
+			productReference = D9F65BD51E2E00E8002BBD5C /* MapLabelDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,6 +260,12 @@
 						DevelopmentTeam = YMJ372W38W;
 						ProvisioningStyle = Manual;
 					};
+					D9F65BD41E2E00E8002BBD5C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Manual;
+						TestTargetID = 81A276CC1DCB36F7002A267E;
+					};
 				};
 			};
 			buildConfigurationList = 81A276C81DCB36F7002A267E /* Build configuration list for PBXProject "MapLabelDemo" */;
@@ -227,6 +283,7 @@
 			targets = (
 				81A276CC1DCB36F7002A267E /* MapLabelDemo */,
 				D96AE68F1DF6B7F200E465F9 /* MapLabelDemo-swift */,
+				D9F65BD41E2E00E8002BBD5C /* MapLabelDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +306,13 @@
 				D96AE69D1DF6B7F200E465F9 /* LaunchScreen.storyboard in Resources */,
 				D96AE69A1DF6B7F200E465F9 /* Assets.xcassets in Resources */,
 				D96AE6981DF6B7F200E465F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F65BD31E2E00E8002BBD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +431,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9F65BD11E2E00E8002BBD5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F65BD81E2E00E8002BBD5C /* MapLabelDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9F65BDB1E2E00E8002BBD5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81A276CC1DCB36F7002A267E /* MapLabelDemo */;
+			targetProxy = D9F65BDA1E2E00E8002BBD5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		81A276D91DCB36F7002A267E /* Main.storyboard */ = {
@@ -568,6 +648,38 @@
 			};
 			name = Release;
 		};
+		D9F65BDC1E2E00E8002BBD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = MapLabelDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.MapLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8014ae4e-33b6-4937-87e3-3725a2aad4f7";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				TEST_TARGET_NAME = MapLabelDemo;
+			};
+			name = Debug;
+		};
+		D9F65BDD1E2E00E8002BBD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = MapLabelDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.MapLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8014ae4e-33b6-4937-87e3-3725a2aad4f7";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				TEST_TARGET_NAME = MapLabelDemo;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -597,6 +709,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D9F65BDE1E2E00E8002BBD5C /* Build configuration list for PBXNativeTarget "MapLabelDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F65BDC1E2E00E8002BBD5C /* Debug */,
+				D9F65BDD1E2E00E8002BBD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
