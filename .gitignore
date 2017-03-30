@@ -1,7 +1,9 @@
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
 .DS_Store
+
 ## Build generated
 build/
 DerivedData/
@@ -20,7 +22,6 @@ xcuserdata/
 ## Other
 *.moved-aside
 *.xcuserstate
-*.DS_Store
 
 ## Obj-C/Swift specific
 *.hmap
@@ -59,3 +60,7 @@ fastlane/screenshots
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+Result/
+output/
+
