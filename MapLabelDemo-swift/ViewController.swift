@@ -18,7 +18,7 @@ class ViewController: UIViewController, MAMapViewDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.containerView.backgroundColor = UIColor(colorLiteralRed: 0, green: 0, blue: 0, alpha: 0.4);
+        self.containerView.backgroundColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 0.4)
         self.containerView.layer.cornerRadius = 10;
         
         self.mapView = MAMapView(frame: self.view.bounds);
